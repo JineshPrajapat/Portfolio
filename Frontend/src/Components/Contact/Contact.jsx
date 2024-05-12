@@ -111,10 +111,10 @@ export const Contact = () => {
                     </div>
 
                     <button
-                        className={`bg-black text-white text-xl rounded-md px-5 py-2 mt-14 md:mt-2 float-left ${!processing && "bg-gray-800"}`}
+                        className={`bg-black text-white text-xl rounded-md px-5 py-2 mt-14 md:mt-2 float-left ${processing && "bg-gray-800"}`}
                         type="submit"
                         disabled={processing}>
-                        {!processing ? <>Sending Message... &nbsp; </> : <>Send Message &nbsp; <i class="fa-solid fa-paper-plane"></i></>}
+                        {processing ? <>Sending Message... &nbsp; </> : <>Send Message &nbsp; <i class="fa-solid fa-paper-plane"></i></>}
                     </button>
                 </form>
             </div>

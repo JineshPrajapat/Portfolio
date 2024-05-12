@@ -7,6 +7,7 @@ import landingImg6 from '../assets/stock/landingImg6.jpeg'
 import landingImg7 from '../assets/stock/landingImg7.jpg'
 import chatlytics from '../assets/stock/chatlytics.png';
 import beyondscool from '../assets/stock/beyondscool.png';
+import restaurant from '../assets/stock/restaurant.png';
 import quiz1 from '../assets/stock/quiz1.png';
 import undrawcontact from '../assets/reviews/undrawcontact.svg';
 
@@ -16,6 +17,7 @@ export default {
     chatlytics,
     beyondscool,
     quiz1,
+    restaurant,
     undrawcontact,
     landingImg,
     landingImg2,

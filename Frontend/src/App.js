@@ -5,6 +5,7 @@ import { Home } from './Components/Home/Home';
 import { Education } from './Components/Education/Education';
 import { Projects } from './Components/Projects/Projects';
 import { Contact } from './Components/Contact/Contact';
+
 function App() {
   return (
     <div className="App">
