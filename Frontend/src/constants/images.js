@@ -8,6 +8,7 @@ import landingImg7 from '../assets/stock/landingImg7.jpg'
 import chatlytics from '../assets/stock/chatlytics.png';
 import beyondscool from '../assets/stock/beyondscool.png';
 import restaurant from '../assets/stock/restaurant.png';
+import common from '../assets/stock/common.png'
 import quiz1 from '../assets/stock/quiz1.png';
 import undrawcontact from '../assets/reviews/undrawcontact.svg';
 
@@ -18,6 +19,7 @@ export default {
     beyondscool,
     quiz1,
     restaurant,
+    common,
     undrawcontact,
     landingImg,
     landingImg2,

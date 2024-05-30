@@ -74,6 +74,7 @@ export const Contact = () => {
                             placeholder='Your Name'
                             value={formData.name}
                             onChange={handleChange}
+                            required
                         />
                     </div>
                     <div className="flex flex-col">
@@ -85,6 +86,7 @@ export const Contact = () => {
                             placeholder='Email'
                             value={formData.email}
                             onChange={handleChange}
+                            required
                         />
                     </div>
                     <div className="flex flex-col">
@@ -96,6 +98,7 @@ export const Contact = () => {
                             placeholder='Subject'
                             value={formData.subject}
                             onChange={handleChange}
+                            required
                         />
                     </div>
                     <div className="flex flex-col">
@@ -107,6 +110,7 @@ export const Contact = () => {
                             placeholder='Write your Message'
                             value={formData.message}
                             onChange={handleChange}
+                            required
                         />
                     </div>
 
