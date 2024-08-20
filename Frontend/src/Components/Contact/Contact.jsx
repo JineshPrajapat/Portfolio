@@ -55,7 +55,7 @@ export const Contact = () => {
 
     return (
         <div>
-            <div className='flex flex-col md:flex-row gap-5 justify-center items-center mt-24 md:mt-32 mx-4 md:mx-16 mb-16'>
+            <div className='flex flex-col md:flex-row gap-5 justify-center items-center mt-16 mx-4 md:mx-16 mb-16'>
                 <div className=' text-left'>
                     <h1 className='text-3xl font-bold'>Reach out, let's build something incredible together.</h1>
                     <p className='text-sm font-medium mb-10 whitespace-normal mt-1 md:w-[40vw]'>Would love to hear your thoughts! I've crafted a contact form for you to share your feedback. Your insights are invaluable.</p>

@@ -4,6 +4,23 @@ import '@fortawesome/fontawesome-free/css/all.css';
 
 const projectsData = [
     {
+        title: "Company Website",
+        description: "Designed and developed a company website with a modern and intuitive UI/UX. The website includes essential pages such as Services, About, FAQ, and Contact.",
+        features: "The website allows the owner to perform CRUD operations on a blog section, sharing insights on trending technologies like AI/ML.",
+        technology: "MongoDB, ExpressJs, ReactJs, Redux, NodeJs",
+        imageUrl: images.blogapp,
+        link: 'https://garud21ai.vercel.app/',
+        progress: "yes"
+    },
+    {
+        title: "Chat Application",
+        description: "Real-time chat application consists of peer-to-peer chat, editing and deletion of messages, status seen and unseen of message along with the chat history.",
+        features: "Peer-to-peer communication, udate and deletion of messages, view chat history, seen and unseen of messages, highlights unseen messages",
+        technology: "MongoDB, ExpressJs, ReactJs, Redux, NodeJs, Socket.io ",
+        imageUrl: images.chatapp,
+        link: 'https://drive.google.com/file/d/1kFfJLn1TB1WA5mydvMT0QsnGY4YxZKY_/view?usp=drive_link'
+    },
+    {
         title: "Chatlytics | The WhatsApp Chat Analyzer",
         description: "Discover the magic of Python in web app! Explore chat patterns, usage stats, and more with ease. Gain insights through dynamic visualizations and understand your talks.",
         features: "Users can upload WhatsApp chats (without media) – group or private – to explore insights like message stats, timelines, activity maps, word clouds, and download visual graphs. Chats aren't stored.",
@@ -53,11 +70,11 @@ export const Projects = () => {
     const isMobile = window.innerWidth <= 900;
 
     return (
-        <div className="m-4 lg:m-16 lg:mt-32 mt-28">
+        <div className="m-4 lg:m-16 lg:mt-12 mt-6">
             <h1 className="text-3xl md:text-4xl font-extrabold underline">Projects</h1>
             <div className='my-10 md:mt-16 '>
                 {projectsData.map((project, index) => (
-                    <div key={index} className='flex flex-col lg:flex-row gap-5 mb-28 md:mb-48 justify-center items-center '>
+                    <div key={index} className='flex flex-col lg:flex-row gap-5 mb-28 md:mb-48 justify-center items-center ' data-aos="fade-up" data-aos-delay="200">
                         {isMobile ? (
                             <>
                                 <h1 className='uppercase underline mb-1'>{`Project ${index + 1}`}</h1>

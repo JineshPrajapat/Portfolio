@@ -43,20 +43,20 @@ export const Header = () => {
 
     return (
         <div>
-            <header className=' w-full bg-white border-b-2 fixed top-0 left-0 z-50 font-mono'>
-                <div className='p-4 md:py-2 flex flex-row items-center justify-between bg-black text-white'>
+            <header className=' w-full bg-white border-b-2 sticky top-0 left-0 z-50 font-mono'>
+                <div className='p-4 py-2 md:py-2 flex flex-row items-center justify-between bg-black text-white'>
                     <div className=''>
-                        <NavLink to="/" className='flex flex-row gap-3 items-center text-xl md:text-2xl font-semibold font-mono'>
-                            <div>&lt;&lt;&#123; Jinesh Prajapat &#125;&gt;&gt;</div>
+                        <NavLink to="/" className='flex flex-row gap-3 items-center text-base md:text-2xl font-semibold font-mono'>
+                            <div>&#123; Jinesh Prajapat &#125;</div>
                         </NavLink>
                     </div>
                     {isMobile ? (
                         <div>
-                            <div className="text-3xl" onClick={() => handleToggle()}>
+                            <div className="text-2xl" onClick={() => handleToggle()}>
                                 {!toggle ? <i className="fa-solid fa-bars"></i> : <i className="fa-solid fa-xmark"></i>}
                             </div>
                             {toggle && (
-                                <div className='absolute mt-4 h-[100vh]  bg-white text-black w-full left-0 shadow-lg shadow-gray-300'>
+                                <div className='absolute mt-2 h-[100vh]  bg-white text-black w-full left-0 shadow-lg shadow-gray-300'>
                                     <ul className='flex flex-col mt-4'>
                                         {Menus?.map((menu, i) => (
                                             <li className={`links mb-3`} key={i}>

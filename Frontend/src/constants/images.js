@@ -11,6 +11,9 @@ import restaurant from '../assets/stock/restaurant.png';
 import common from '../assets/stock/common.png'
 import quiz1 from '../assets/stock/quiz1.png';
 import undrawcontact from '../assets/reviews/undrawcontact.svg';
+import backgroundanimated from '../assets/video/backgroundanimated.mp4';
+import chatapp from '../assets/stock/ChatApp.png';
+import blogapp from '../assets/stock/blogapp.png';
 
 
 export default {
@@ -27,4 +30,7 @@ export default {
     landingImg4,
     landingImg6,
     landingImg7,
+    backgroundanimated,
+    chatapp,
+    blogapp
 };

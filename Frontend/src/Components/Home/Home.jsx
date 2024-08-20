@@ -3,6 +3,7 @@ import { Landing } from './Landing/Landing';
 import { About } from './About/About';
 import { images } from '../../constants';
 import '@fortawesome/fontawesome-free/css/all.css';
+import { Experience } from '../Experience/Experience';
 
 const contactLinks = [
   {
@@ -33,8 +34,9 @@ export const Home = () => {
     <div>
       <Landing />
       <About />
+      <Experience/>
 
-      <section className='m-8 text-left text-xl'>
+      <section className='m-8 text-left text-xl' >
         <p className='mb-5 font-semibold'>Connect with me :</p>
         <div className='flex flex-col md:flex-row justify-evenly md:items-center'>
           {contactLinks.map((link, index) => (
@@ -47,7 +49,7 @@ export const Home = () => {
       </section>
 
       <footer className=' border-t-[1px] border-gray-400 w-[100vw] flex justify-center items-center'>
-        <p className='p-3 text-sm'>Copyright &copy; 2024 - Jinesh Prajapat. All Rights Reserved.</p>
+        <p className='p-3 text-sm' >Copyright &copy; 2024 - Jinesh Prajapat. All Rights Reserved.</p>
       </footer>
       
     </div>
